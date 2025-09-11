@@ -1,0 +1,4 @@
+- power ups and collectables , size , speed shield etc
+- multi-level achievements 
+- connect to google play in settings
+
