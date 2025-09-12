@@ -1,4 +1,15 @@
-- power ups and collectables , size , speed shield etc
+- power ups and collectables (coins ? for what ?) , size , speed shield etc
 - multi-level achievements 
 - connect to google play in settings
+
+- change color of score particles
+
+- monotize
+- UI
+- boss ?
+- prevent screen power down when playing
+
+maybe try to give more perpuse ? spaceshipe ? cars ? some kind of vhicel
+
+
 
