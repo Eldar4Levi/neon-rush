@@ -135,3 +135,29 @@ Creating reusable ScrollingSurface component for React Native games with infinit
 - [x] Fixed SurfaceType import conflicts and dependency array errors
 - [x] Resolved "Property 'world' doesn't exist" runtime error
 - [x] World system is fully functional and ready for gameplay
+- [x] Resolved "[runtime not ready]" device issue by clearing Metro bundler cache
+- [x] Successfully restarted Expo development server with clean cache
+- [x] Removed coin-related console.log statements from useGameLogic and useCoinManager hooks
+- [x] Removed coin rendering console.log from GameScreen component
+- [x] Investigated coin collection system - found that coins have different values (1, 2, 5, 10 points)
+- [x] Updated game over screen to show "Coin Points" instead of "Coins" for clarity
+- [x] Enhanced coin visibility with larger numbers, better contrast, and color-coded values
+- [x] High-value coins (5+) now display in white with red glow, low-value coins in green with green glow
+- [x] Created dedicated Coin Design Test page showing all coin values (1, 2, 5, 10) with enhanced visibility
+- [x] Added "🎨 COIN DESIGN" button to main menu for easy access to coin testing
+- [x] Coin test page includes design information and value labels for each coin
+- [x] Completely redesigned Coin component using SVG for arcade-style appearance
+- [x] Added value-based color schemes: green (1), cyan (2), orange (5), red (10)
+- [x] Implemented gradient effects, glow filters, and decorative edge dots
+- [x] Added pulsing animation combined with spinning for dynamic visual appeal
+- [x] Installed react-native-svg package for advanced SVG rendering
+- [x] Fixed coin rotation sync issue by implementing time-based rotation system
+- [x] Replaced Animated.loop with setInterval for more stable, synchronized rotation
+- [x] Added proper cleanup for interval timers to prevent memory leaks
+- [x] Coins now maintain perfect rotation sync during gameplay
+- [x] Implemented coin collection persistence system with user total tracking
+- [x] Added totalCoins field to User interface and database schema
+- [x] Created addCoins function in useUserManager for persistent coin storage
+- [x] Updated game logic to call addCoins when coins are collected during gameplay
+- [x] Added coin display to main menu showing "💰 Total Coins: X" with golden styling
+- [x] Added backward compatibility for existing users without totalCoins field

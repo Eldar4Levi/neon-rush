@@ -2,6 +2,10 @@
 - multi-level achievements 
 - connect to google play in settings
 
+- force LTR
+
+
+
 - change color of score particles
 
 - monotize
